@@ -12,5 +12,15 @@ namespace MyCalcLib
         {
             return x + y;
         }
+
+        public int Minus(int x, int y)
+        {
+            return x - y;
+        }
+
+        public int Umn(int x, int y)
+        {
+            return x * y;
+        }
     }
 }
